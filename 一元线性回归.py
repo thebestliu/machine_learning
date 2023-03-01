@@ -42,8 +42,8 @@ def gradient_descent_runner(x_data, y_data, b, k, lr, epochs):
         # 更新b和k
         b = b - (lr * b_grad)
         k = k - (lr * k_grad)
-          # 每迭代10次,输出一次图像
-        if i % 10 == 0:
+          # 每迭代5次,输出一次图像
+        if i % 5 == 0:
             print("epochs:", i)
             plt.plot(x_data, y_data, 'b.')
             plt.plot(x_data, k * x_data + b, 'r')
