@@ -58,6 +58,6 @@ print("After {0} iterations b = {1}, k = {2}, error = {3}".format(epochs, b, k, 
 
 
 # 画图
-# plt.plot(x_data, y_data, 'b.')
-# plt.plot(x_data, k*x_data + b, 'r')
-# plt.show()
+plt.plot(x_data, y_data, 'b.')
+plt.plot(x_data, k*x_data + b, 'r')
+plt.show()
